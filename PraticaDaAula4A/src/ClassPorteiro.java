@@ -2,7 +2,7 @@ public class ClassPorteiro {
     String num;
     String nome;
     int horaEnt;
-    private static ClassPorteiro instanciado; // porteiro simpleton
+    private static ClassPorteiro instanciado; // porteiro simpleton - singular
 
     // construtor
     private ClassPorteiro(String num, String nome, int horaEnt){
