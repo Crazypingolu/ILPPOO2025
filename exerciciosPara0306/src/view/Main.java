@@ -8,7 +8,7 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            // TODO mensagem de conclusão
+            System.out.println("Programa finalizado");
         }
     }
 }
