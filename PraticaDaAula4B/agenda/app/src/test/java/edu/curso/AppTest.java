@@ -9,6 +9,7 @@ import edu.curso.HelloWorld;
 
 import static org.junit.Assert.*;
 
+@SuppressWarnings("unused")
 public class AppTest {
     @Test public void appHasAGreeting() {
         HelloWorld classUnderTest = new HelloWorld();
