@@ -15,10 +15,12 @@ public class ClassAlunos {
         this.nome = nome;
     }
     // Substituir o toString
+    @SuppressWarnings("deprecation")
     @Override
     public String toString(){
-        String idStr = id+"", dateStr = dataNasc+"";
-        return "Id: " + idStr + " Data de nascimento: " + dateStr + " RA: " + ra + " Nome: " + nome;
+        String idStr = id+"";
+        String dataDia = dataNasc.getDate()+"", dataMes = dataNasc.getMonth()+"", dataAno = dataNasc.getYear()+"";
+        return "\nId: " + idStr + "\nData de nascimento: " + dataDia + "/" + dataMes + "/" + dataAno + "\nRA: " + ra + "\nNome: " + nome;
     }
     // setters e getters
     public long getId() {

@@ -1,15 +1,22 @@
 package controller;
-import java.util.Date;
 import model.ClassGestaoAlunos;
 import model.ClassAlunos;
 import java.lang.Exception;
-@SuppressWarnings("unused")
 
+@SuppressWarnings("unused")
 public class ClassController {
     public ClassController(){
         super();
     }
-    public void run() throws Exception{
+    public void run() {
         ClassGestaoAlunos lista = new ClassGestaoAlunos();
+        while (true) {
+         try {
+            lista.menu();
+            break;
+         } catch (Exception e) {
+           System.err.println("Erro: " + e.getMessage());
+         }   
+        }
     }
 }
