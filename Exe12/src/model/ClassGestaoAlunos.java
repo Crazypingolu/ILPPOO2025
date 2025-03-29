@@ -121,9 +121,9 @@ public class ClassGestaoAlunos {
                         listaAlunos[j].setNome(listaAlunos[j+1].getNome());
                     }
                 }
+                indice--;
+                indiceDel++;
             }
-            indice--;
-            indiceDel++;
         }
         if (indiceDel < 1)
             throw new IllegalArgumentException("Aluno não encontrado na lista.");
