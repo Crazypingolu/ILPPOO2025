@@ -7,14 +7,9 @@ public class Caixa {
         this.saldo = 0;
     }
     
-    public double venda(){
-        double saldoAtual = this.saldo, saldoNovo = saldoAtual, valorProduto;
-        while(true){
-            valorProduto = Double.parseDouble(JOptionPane.showInputDialog("Adicionar valor de produto \n(digite 0 para cancelar)"));
-            if (valorProduto == 0)
-                break;
-            saldoNovo = saldoNovo + valorProduto;
-        }
+    public double venda(double valorProduto){ 
+        double saldoAtual = this.saldo;
+        double saldoNovo = saldoAtual + valorProduto;
         this.saldo = saldoNovo;
         return saldoNovo;
     }
