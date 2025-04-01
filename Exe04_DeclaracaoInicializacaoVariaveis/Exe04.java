@@ -1,8 +1,3 @@
-/*
-  Program: create and initiate some variables
-  @author Lucas P.
-  @version 1.0
-*/
 package Due0227;
 import javax.swing.JOptionPane;
 public class Exe04 {

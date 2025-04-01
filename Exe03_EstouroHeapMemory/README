@@ -1,0 +1,3 @@
+Faça um código em Java para estourar a memória Heap. Você saberá que
+o programa foi bem sucedido quando ocorrer um erro de 
+Out of Memory - Java Heap Error, ou algo parecido.

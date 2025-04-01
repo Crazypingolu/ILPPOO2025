@@ -1,8 +1,3 @@
-/* 
-  Program: create a code to get 2 double values and show their sum.
-  @author Lucas P.
-  @version 1.0
-*/
 package Due0227;
 import javax.swing.JOptionPane;
 public class Exe01 {

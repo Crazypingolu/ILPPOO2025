@@ -1,8 +1,3 @@
-/*
-  Program: create a code to give the error: Out of Memory - Java Heap Error
-  @author Lucas P.
-  @version 1.0
-*/
 package Due0227;
 import java.util.ArrayList;
 import java.util.List;

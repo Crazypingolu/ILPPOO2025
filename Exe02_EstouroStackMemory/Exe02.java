@@ -1,8 +1,3 @@
-/* 
-  Program: create a code to give the error: Stack Overflow
-  @author Lucas P.
-  @version 1.0
-*/
 package Due0227;
 public class Exe02 {
     public static void main(String[] args) {
